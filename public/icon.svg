@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#06080F" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="4" />
+  <!-- Film Slate / Reel Emblem -->
+  <g transform="translate(106, 106) scale(0.58)">
+    <path d="M448 64H64C28.65 64 0 92.65 0 128v256c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V128c0-35.35-28.65-64-64-64z" fill="url(#goldGrad)" />
+    <!-- Perforations -->
+    <rect x="48" y="104" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="144" y="104" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="240" y="104" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="336" y="104" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="416" y="104" width="48" height="48" rx="8" fill="#06080F" />
+    <!-- Center Screen -->
+    <rect x="48" y="184" width="416" height="144" rx="16" fill="#06080F" />
+    <!-- Star Emblem -->
+    <polygon points="256,204 270,246 314,246 278,272 292,314 256,288 220,314 234,272 198,246 242,246" fill="url(#goldGrad)" />
+    <!-- Bottom Perforations -->
+    <rect x="48" y="360" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="144" y="360" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="240" y="360" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="336" y="360" width="48" height="48" rx="8" fill="#06080F" />
+    <rect x="416" y="360" width="48" height="48" rx="8" fill="#06080F" />
+  </g>
+</svg>
