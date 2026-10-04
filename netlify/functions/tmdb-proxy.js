@@ -6,7 +6,7 @@
 
 const TMDB_BASE_URL = "https://api.themoviedb.org/3";
 
-exports.handler = async (event, context) => {
+export const handler = async (event, context) => {
   // CORS Headers
   const headers = {
     "Access-Control-Allow-Origin": "*",
