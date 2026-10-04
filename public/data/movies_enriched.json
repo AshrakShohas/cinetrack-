@@ -1,16 +1,15 @@
 {
   "summary": {
     "total_titles": 2914,
-    "enriched_count": 25,
+    "enriched_count": 5,
     "unmatched_count": 0,
-    "runtime_seconds": 0.15,
-    "mode": "dry_run_or_mock",
-    "timestamp": "2026-10-04T00:25:57.040415"
+    "runtime_seconds": 4.71,
+    "timestamp": "2026-10-04T12:36:35.093836"
   },
   "titles": [
     {
       "imdb_id": "tt0877057",
-      "tmdb_id": null,
+      "tmdb_id": 13916,
       "title": "Death Note",
       "original_title": "Death Note: Desu nôto",
       "title_type": "tvSeries",
@@ -46,46 +45,152 @@
       "watch_with_wife": false,
       "watch_with_family": true,
       "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.039989",
-      "overview": "A compelling film titled Death Note featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0877057.jpg",
-      "backdrop_path": "/sample_backdrop_tt0877057.jpg",
+      "overview": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+      "tagline": "The human whose name is written in this note shall die.",
+      "poster_path": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
+      "backdrop_path": "/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
+      "release_date": "2006-10-04",
+      "year": 2006,
+      "runtime": 22,
       "genres": [
         "Animation",
-        "Crime",
-        "Drama",
-        "Fantasy",
         "Mystery",
-        "Thriller"
+        "Sci-Fi & Fantasy"
+      ],
+      "keywords": [
+        "detective",
+        "journalism",
+        "secret identity",
+        "police",
+        "supernatural",
+        "sociopath",
+        "rivalry",
+        "murder",
+        "serial killer",
+        "grim reaper",
+        "psychological thriller",
+        "based on manga",
+        "justice",
+        "death",
+        "ethical dilemma",
+        "shounen",
+        "anime",
+        "shinigami",
+        "time skip",
+        "magic book",
+        "psychological",
+        "fantastic",
+        "prosocial psychopath",
+        "horror",
+        "arrogant",
+        "audacious",
+        "exhilarated"
       ],
       "original_language": "ja",
+      "spoken_languages": [
+        "Japanese"
+      ],
       "production_countries": [
         "Japan"
       ],
       "production_companies": [
-        "Studio Ghibli"
+        "Madhouse",
+        "Nippon Television Network Corporation",
+        "D.N. Dream Partners",
+        "VAP",
+        "Shueisha"
       ],
-      "certification": "PG-13",
+      "certification": "TV-14",
       "actors": [
         {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
+          "id": 93803,
+          "name": "Mamoru Miyano",
+          "character": "Light Yagami (voice)",
+          "profile_path": "/nuok8ueG7k9hPZ09Tpr8e7Qn0ah.jpg",
+          "order": 0
+        },
+        {
+          "id": 68472,
+          "name": "Kappei Yamaguchi",
+          "character": "L (voice)",
+          "profile_path": "/mJyxKRZxLv9D7LH5KcNSkjSKYOB.jpg",
+          "order": 1
+        },
+        {
+          "id": 72202,
+          "name": "Shido Nakamura",
+          "character": "Ryuk (voice)",
+          "profile_path": "/dMyf8ZoHD5xkld66h8bEw9QgQZI.jpg",
+          "order": 2
+        },
+        {
+          "id": 1679,
+          "name": "Nozomu Sasaki",
+          "character": "Mello (voice)",
+          "profile_path": "/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg",
+          "order": 5
+        },
+        {
+          "id": 224462,
+          "name": "Naoya Uchida",
+          "character": "Soichiro Yagami (voice)",
+          "profile_path": "/i1Vl4QbiEsyATmX2HSH2rIEyzeS.jpg",
+          "order": 7
+        },
+        {
+          "id": 558672,
+          "name": "Ryou Naitou",
+          "character": "Touta Matsuda (voice)",
+          "profile_path": "/bWdGQuWNQO7zeF2UKlTQi0DzhUf.jpg",
+          "order": 8
+        },
+        {
+          "id": 9708,
+          "name": "Keiji Fujiwara",
+          "character": "Shuichi Aizawa (voice)",
+          "profile_path": "/hbfBiFiEvD8u3vikl6hUNLKF7Lv.jpg",
+          "order": 9
+        },
+        {
+          "id": 84507,
+          "name": "Kazuya Nakai",
+          "character": "Kanzo Mogi (voice)",
+          "profile_path": "/cOHSa0FBrG3u9P6g8A56sInkvod.jpg",
+          "order": 10
         }
       ],
       "actresses": [
         {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
+          "id": 144650,
+          "name": "Aya Hirano",
+          "character": "Misa Amane (voice)",
+          "profile_path": "/AvbCkdSXoKgrQAyG08b4WdGKoX5.jpg",
+          "order": 3
+        },
+        {
+          "id": 55662,
+          "name": "Noriko Hidaka",
+          "character": "Near (voice)",
+          "profile_path": "/43OuwsjqGf7JxpFpUvB75OdDDXQ.jpg",
+          "order": 4
+        },
+        {
+          "id": 1241603,
+          "name": "Kimiko Saito",
+          "character": "Rem (voice)",
+          "profile_path": "/rPP0jCjtLuEEroY3e2aRT8zonYK.jpg",
+          "order": 6
         }
-      ]
+      ],
+      "number_of_seasons": 1,
+      "number_of_episodes": 37,
+      "episode_run_time": 22,
+      "total_runtime_minutes": 814,
+      "enriched_at": "2026-10-04T12:36:31.745017"
     },
     {
       "imdb_id": "tt2250192",
-      "tmdb_id": null,
+      "tmdb_id": 45782,
       "title": "Sword Art Online",
       "original_title": "Sword Art Online",
       "title_type": "tvSeries",
@@ -123,48 +228,197 @@
       "watch_with_wife": true,
       "watch_with_family": true,
       "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040008",
-      "overview": "A compelling film titled Sword Art Online featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt2250192.jpg",
-      "backdrop_path": "/sample_backdrop_tt2250192.jpg",
+      "overview": "In the near future, a Virtual Reality Massive Multiplayer Online Role-Playing Game (VRMMORPG) called Sword Art Online has been released where players control their avatars with their bodies using a piece of technology called Nerve Gear. One day, players discover they cannot log out, as the game creator is holding them captive unless they reach the 100th floor of the game's tower and defeat the final boss. However, if they die in the game, they die in real life. Their struggle for survival starts now...",
+      "tagline": "Blurring the line between the virtual and the real.",
+      "poster_path": "/9m8bFIXPg26taNrFSXGwEORVACD.jpg",
+      "backdrop_path": "/pr78HhmOYlA0fwaoYNcH1FstqBH.jpg",
+      "release_date": "2012-07-08",
+      "year": 2012,
+      "runtime": 24,
       "genres": [
         "Animation",
-        "Action",
-        "Adventure",
-        "Drama",
-        "Fantasy",
-        "Romance",
-        "Sci-Fi",
-        "Thriller"
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "keywords": [
+        "video game",
+        "artificial intelligence (a.i.)",
+        "based on novel or book",
+        "magic",
+        "fairy",
+        "trauma",
+        "virtual reality",
+        "friendship",
+        "sword fight",
+        "romance",
+        "survival",
+        "game",
+        "death match",
+        "nostalgic",
+        "alternative reality",
+        "shooting game",
+        "anime",
+        "sword and sorcery",
+        "mmorpg",
+        "isekai",
+        "virtual world",
+        "love polygon",
+        "guns",
+        "trapped in a game",
+        "fantasy",
+        "metaverse",
+        "death game",
+        "based on light novel",
+        "adventure",
+        "admiring",
+        "joyful",
+        "teen fantasy",
+        "vrmmo",
+        "dungeon crawling"
       ],
       "original_language": "ja",
+      "spoken_languages": [
+        "Japanese"
+      ],
       "production_countries": [
         "Japan"
       ],
       "production_companies": [
-        "Studio Ghibli"
+        "A-1 Pictures",
+        "Aniplex",
+        "GENCO",
+        "EGG FIRM",
+        "ASCII Media Works",
+        "Bandai Namco Games",
+        "Bandai Namco Entertainment",
+        "KADOKAWA"
       ],
-      "certification": "PG-13",
+      "certification": "TV-MA",
       "actors": [
         {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
+          "id": 233590,
+          "name": "Yoshitsugu Matsuoka",
+          "character": "Kirito (voice)",
+          "profile_path": "/ugDwdWEXnmv43jcbnfAi4XwiQ8C.jpg",
+          "order": 0
+        },
+        {
+          "id": 84505,
+          "name": "Hiroaki Hirata",
+          "character": "Klein (voice)",
+          "profile_path": "/mMWEdlssJm3TVuXW4Wb7pQeX20Z.jpg",
+          "order": 2
+        },
+        {
+          "id": 216448,
+          "name": "Hiroki Yasumoto",
+          "character": "Agil (voice)",
+          "profile_path": "/vNIGLl0wFmdhdnulMssQ1qyNeBs.jpg",
+          "order": 5
+        },
+        {
+          "id": 126283,
+          "name": "Isshin Chiba",
+          "character": "Critter (voice",
+          "profile_path": "/79dHFfMSqnpPkh4DNXNLitYxyJ0.jpg",
+          "order": 6
+        },
+        {
+          "id": 1613379,
+          "name": "Taku Yashiro",
+          "character": "Iskahn (voice)",
+          "profile_path": "/eVdB6myaNJ4h38UU9hHHlsaCWHn.jpg",
+          "order": 8
+        },
+        {
+          "id": 1606164,
+          "name": "Junya Enoki",
+          "character": "Lilpilin (voice)",
+          "profile_path": "/vBnNL3Jqy0zkS3ZgsXZmvDM9Dfz.jpg",
+          "order": 10
         }
       ],
       "actresses": [
         {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
+          "id": 1248340,
+          "name": "Haruka Tomatsu",
+          "character": "Asuna (voice)",
+          "profile_path": "/geVvuA2zMGE5xzfc20aDelJSelu.jpg",
+          "order": 1
+        },
+        {
+          "id": 1254671,
+          "name": "Ai Kayano",
+          "character": "Alice Synthesis Thirty (voice)",
+          "profile_path": "/l8ywp387rfdAS7mOExe3cEZnsk0.jpg",
+          "order": 3
+        },
+        {
+          "id": 1116334,
+          "name": "Rina Hidaka",
+          "character": "Silica (voice)",
+          "profile_path": "/7JupZGvqcq4dRxiTKpPxzg8NUS4.jpg",
+          "order": 4
+        },
+        {
+          "id": 2208367,
+          "name": "Kaori Maeda",
+          "character": "Selka (voice)",
+          "profile_path": "/nj0DsfJ5tL96HlXvzThj7R022f2.jpg",
+          "order": 7
+        },
+        {
+          "id": 222340,
+          "name": "Yuhko Kaida",
+          "character": "Dee Eye Ell (voice)",
+          "profile_path": "/wttsRGyYySLPfNcDtAbNLVizHLx.jpg",
+          "order": 9
+        },
+        {
+          "id": 1245089,
+          "name": "Kanae Itou",
+          "character": "Yui (voice)",
+          "profile_path": "/te4l0fzbfhtKWqNHPYdGZBXMmxt.jpg",
+          "order": 11
+        },
+        {
+          "id": 186341,
+          "name": "Miyuki Sawashiro",
+          "character": "Sinon (voice)",
+          "profile_path": "/11mGqwpmu8CoEy1YJgabj2g7MIv.jpg",
+          "order": 12
+        },
+        {
+          "id": 1221877,
+          "name": "Ayahi Takagaki",
+          "character": "Lisbeth (voice)",
+          "profile_path": "/lvROZLr3kQHuD5hJsaEkclns9tc.jpg",
+          "order": 13
+        },
+        {
+          "id": 1072776,
+          "name": "Ayana Taketatsu",
+          "character": "Leafa (voice)",
+          "profile_path": "/7p9BhK5EZtHvXWhFa1WejhoNst3.jpg",
+          "order": 14
+        },
+        {
+          "id": 115303,
+          "name": "Sanae Kobayashi",
+          "character": "Rinko Koujiro (voice)",
+          "profile_path": "/yMNnNg1ouQtSaieUYk9KNizuLSV.jpg",
+          "order": 15
         }
-      ]
+      ],
+      "number_of_seasons": 4,
+      "number_of_episodes": 96,
+      "episode_run_time": 24,
+      "total_runtime_minutes": 2304,
+      "enriched_at": "2026-10-04T12:36:32.582453"
     },
     {
       "imdb_id": "tt0203082",
-      "tmdb_id": null,
+      "tmdb_id": 317885,
       "title": "Rurouni Kenshin: Trust & Betrayal",
       "original_title": "Rurôni Kenshin: Meiji kenkaku romantan - Tsuioku-hen",
       "title_type": "tvMiniSeries",
@@ -200,46 +454,185 @@
       "watch_with_wife": true,
       "watch_with_family": true,
       "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040015",
-      "overview": "A compelling film titled Rurouni Kenshin: Trust & Betrayal featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0203082.jpg",
-      "backdrop_path": "/sample_backdrop_tt0203082.jpg",
+      "overview": "Rurouni Kenshin: Trust & Betrayal details the origins of the man who would bear the name of Hitokiri Battosai long before he swore his oath not to kill and before he earned his reputation as an assassin. The young man's heart is divided between justice and corruption, while the fate of a nation rests on his actions.",
+      "tagline": "",
+      "poster_path": "/eisX6v7DQugyk0tQaJamuSMVKuM.jpg",
+      "backdrop_path": "/2OSDcB6sQYlxA0UffFaCLNgiUNE.jpg",
+      "release_date": "1999-02-20",
+      "year": 1999,
+      "runtime": 29,
       "genres": [
         "Animation",
-        "Action",
-        "Adventure",
-        "Drama",
-        "History",
-        "Romance"
+        "Action & Adventure",
+        "Drama"
+      ],
+      "keywords": [
+        "romance",
+        "redemption",
+        "historical drama",
+        "violent tragedy"
       ],
       "original_language": "ja",
+      "spoken_languages": [
+        "Japanese",
+        "English"
+      ],
       "production_countries": [
-        "Japan"
+        "JP"
       ],
       "production_companies": [
-        "Studio Ghibli"
+        "Studio Deen",
+        "Madman Entertainment",
+        "Aniplex"
       ],
-      "certification": "PG-13",
+      "certification": "TV-MA",
       "actors": [
         {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
+          "id": 1679,
+          "name": "Nozomu Sasaki",
+          "character": "Enishi Yukishiro (voice)",
+          "profile_path": "/7usoPlvc9Xa1rDA2vxmVi0OvLDb.jpg",
+          "order": 2
+        },
+        {
+          "id": 90561,
+          "name": "Shuichi Ikeda",
+          "character": "Seijûrô Hiko (voice)",
+          "profile_path": "/p7uQYnI8AG1m4GmqnnXP8A2jbW8.jpg",
+          "order": 4
+        },
+        {
+          "id": 90567,
+          "name": "Tomokazu Seki",
+          "character": "Kogorô Katsura (voice)",
+          "profile_path": "/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg",
+          "order": 5
+        },
+        {
+          "id": 112278,
+          "name": "Wataru Takagi",
+          "character": "Shinsaku Takasugi (voice)",
+          "profile_path": "/amccLvyTl5JP7T9F05BojgQedNw.jpg",
+          "order": 6
+        },
+        {
+          "id": 115305,
+          "name": "Ryusei Nakao",
+          "character": "Îzuka (vioce)",
+          "profile_path": "/fsxlwNIWj7taqpXRYETmXFk0x1P.jpg",
+          "order": 7
+        },
+        {
+          "id": 100124,
+          "name": "Hirotaka Suzuoki",
+          "character": "Hajime Saitô (voice)",
+          "profile_path": "/pgFcxD6dazHWy3KFobU6gDz0iCJ.jpg",
+          "order": 8
+        },
+        {
+          "id": 550089,
+          "name": "Minoru Uchida",
+          "character": "Tatsumi (voice)",
+          "profile_path": null,
+          "order": 10
+        },
+        {
+          "id": 1221099,
+          "name": "Tetsuya Iwanaga",
+          "character": "Akira Kiyosato (voice)",
+          "profile_path": "/4IG4sg8dFOizFboBCfeftDzYslU.jpg",
+          "order": 11
+        },
+        {
+          "id": 550091,
+          "name": "Satoshi Tsuruoka",
+          "character": "Jubei Shigekûra (voice)",
+          "profile_path": "/yDPDu4TExWiuYQqgA44hFWeI87e.jpg",
+          "order": 12
+        },
+        {
+          "id": 550092,
+          "name": "Mitsuaki Hoshino",
+          "character": "Katagai (voice)",
+          "profile_path": "/ePTD73h2jLs2kRHcpCx7iRgq4x7.jpg",
+          "order": 13
+        },
+        {
+          "id": 6166979,
+          "name": "Hiromi Setsu",
+          "character": "Ikumatsu (voice)",
+          "profile_path": null,
+          "order": 14
+        },
+        {
+          "id": 237076,
+          "name": "Rikiya Koyama",
+          "character": "Toshizô Hijikata (voice)",
+          "profile_path": "/hsZm87BORLpzhaycBaWOD5xpjVC.jpg",
+          "order": 15
+        },
+        {
+          "id": 6166982,
+          "name": "Hiroshi Takahashi",
+          "character": "Isami Kondô (voice)",
+          "profile_path": null,
+          "order": 16
+        },
+        {
+          "id": 1173794,
+          "name": "Hiroshi Shimozaki",
+          "character": "Sudo (voice)",
+          "profile_path": "/zpWYyGz9aUkCcbdIT31EQ2DiBKn.jpg",
+          "order": 17
         }
       ],
       "actresses": [
         {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
+          "id": 550086,
+          "name": "Mayo Suzukaze",
+          "character": "Kenshin Himura (voice)",
+          "profile_path": "/7GhuK27AlY7fYCxbgAXihAG7Y9S.jpg",
+          "order": 0
+        },
+        {
+          "id": 65437,
+          "name": "Junko Iwao",
+          "character": "Tomoe Yukishiro (voice)",
+          "profile_path": "/bKyMLT1MgDTnXafsq2ur32VMwY5.jpg",
+          "order": 1
+        },
+        {
+          "id": 550087,
+          "name": "Masami Suzuki",
+          "character": "Shinta (voice)",
+          "profile_path": "/mhkQ9DCjUvfR7U9v2229O5W5pWq.jpg",
+          "order": 3
+        },
+        {
+          "id": 550088,
+          "name": "Akari Hibino",
+          "character": "Sôshi Okita (voice)",
+          "profile_path": "/1uU95ziw8A4WY6obbyARvuH0QuZ.jpg",
+          "order": 9
         }
-      ]
+      ],
+      "directors": [
+        {
+          "id": 116371,
+          "name": "Kazuhiro Furuhashi",
+          "profile_path": "/waRxB57Lcnhvt139gqpoxnXYCis.jpg",
+          "job": "Director"
+        }
+      ],
+      "number_of_seasons": 1,
+      "number_of_episodes": 4,
+      "episode_run_time": 29,
+      "total_runtime_minutes": 116,
+      "enriched_at": "2026-10-04T12:36:33.408134"
     },
     {
       "imdb_id": "tt0182629",
-      "tmdb_id": null,
+      "tmdb_id": 28136,
       "title": "Rurouni Kenshin",
       "original_title": "Rurôni Kenshin: Meiji kenkaku romantan",
       "title_type": "tvSeries",
@@ -276,47 +669,125 @@
       "watch_with_wife": false,
       "watch_with_family": true,
       "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040020",
-      "overview": "A compelling film titled Rurouni Kenshin featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0182629.jpg",
-      "backdrop_path": "/sample_backdrop_tt0182629.jpg",
+      "overview": "The Meiji Era was one of great renewal for Japan, where swords and killing were outlawed. However, many survivors from the time of Revolution still live, lurking in the shadows and waiting for a chance to use their killing blades again. Only Kenshin Himura, formerly one of the most brutal of killers, hopes to keep his swordsman's honor and still live in the new era.",
+      "tagline": "",
+      "poster_path": "/lQ4p6OF9KjagTfs8otZt0VTe3Al.jpg",
+      "backdrop_path": "/orEvS2rzYhH1WPnmDF7rPAkUt1r.jpg",
+      "release_date": "1996-01-10",
+      "year": 1996,
+      "runtime": 25,
       "genres": [
+        "Action & Adventure",
         "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "History",
-        "Thriller"
+        "Comedy"
+      ],
+      "keywords": [
+        "assassin",
+        "samurai",
+        "exile",
+        "romance",
+        "historical",
+        "shinsengumi",
+        "shounen",
+        "anime",
+        "meiji period",
+        "wandering",
+        "bushi",
+        "bakumatsu",
+        "ishin shishi",
+        "kasei culture"
       ],
       "original_language": "ja",
+      "spoken_languages": [
+        "Japanese"
+      ],
       "production_countries": [
         "Japan"
       ],
       "production_companies": [
-        "Studio Ghibli"
+        "Studio Deen",
+        "Gallop",
+        "Fuji Television Network",
+        "SPE Visual Works",
+        "SME Visual Works"
       ],
-      "certification": "PG-13",
+      "certification": "TV-14",
       "actors": [
         {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
+          "id": 65427,
+          "name": "Yuji Ueda",
+          "character": "Sanosuke Sagara (voice)",
+          "profile_path": "/nwJBK4WwsUCcBcX425GD2BroJDr.jpg",
+          "order": 3
+        },
+        {
+          "id": 100124,
+          "name": "Hirotaka Suzuoki",
+          "character": "Hajime Saitô (voice)",
+          "profile_path": "/pgFcxD6dazHWy3KFobU6gDz0iCJ.jpg",
+          "order": 5
+        },
+        {
+          "id": 142701,
+          "name": "Yoshito Yasuhara",
+          "character": "Aoshi Shinomori (voice)",
+          "profile_path": "/bGSGmvLjs24LjGJqR2Eik1wRnIR.jpg",
+          "order": 7
+        },
+        {
+          "id": 235337,
+          "name": "Yoku Shioya",
+          "character": "Gensai (voice)",
+          "profile_path": "/zJCaOJWub2g8ZlXuH8vE9yaBVy1.jpg",
+          "order": 9
         }
       ],
       "actresses": [
         {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
+          "id": 550086,
+          "name": "Mayo Suzukaze",
+          "character": "Kenshin Himura (voice)",
+          "profile_path": "/7GhuK27AlY7fYCxbgAXihAG7Y9S.jpg",
+          "order": 0
+        },
+        {
+          "id": 73120,
+          "name": "Miki Fujitani",
+          "character": "Kaoru Kamiya (voice)",
+          "profile_path": "/nPFWjWnAQL4Ne9qiSNH0rrhO61S.jpg",
+          "order": 1
+        },
+        {
+          "id": 623,
+          "name": "Mina Tominaga",
+          "character": "Yahiko Myoujin (voice)",
+          "profile_path": "/A1MTkgqfy8UYkQTOLhv3oxo7eYA.jpg",
+          "order": 2
+        },
+        {
+          "id": 76396,
+          "name": "Mika Doi",
+          "character": "Megumi Takani (voice)",
+          "profile_path": "/h5ereBl1UqJC7qH0sLxHJqnJ6Ai.jpg",
+          "order": 4
+        },
+        {
+          "id": 134196,
+          "name": "Tomo Sakurai",
+          "character": "Makimachi Misao (voice)",
+          "profile_path": "/AnJoKAXXwkUnYXO6S9SA2d5sjdr.jpg",
+          "order": 6
         }
-      ]
+      ],
+      "number_of_seasons": 3,
+      "number_of_episodes": 94,
+      "episode_run_time": 25,
+      "total_runtime_minutes": 2350,
+      "enriched_at": "2026-10-04T12:36:34.244432"
     },
     {
       "imdb_id": "tt0423731",
-      "tmdb_id": null,
+      "tmdb_id": 1063,
       "title": "Samurai Champloo",
       "original_title": "Samurai Chanpurû",
       "title_type": "tvSeries",
@@ -352,42 +823,199 @@
       "watch_with_wife": false,
       "watch_with_family": true,
       "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040024",
-      "overview": "A compelling film titled Samurai Champloo featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0423731.jpg",
-      "backdrop_path": "/sample_backdrop_tt0423731.jpg",
+      "overview": "Break-dancing but fierce warrior Mugen has to deal with the cold-blooded and conceited Jin, a samurai who believes he is above all. These sworn enemies are brought together by Fuu for a special task.",
+      "tagline": "Death, betrayal, and... hip hop!",
+      "poster_path": "/lYpHeSm7BcUxAbBx1ucuEH7oGAe.jpg",
+      "backdrop_path": "/aZRGh7ccNAdqQWhHypvlT9UuXjZ.jpg",
+      "release_date": "2004-05-20",
+      "year": 2004,
+      "runtime": 24,
       "genres": [
         "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Thriller"
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "keywords": [
+        "hip-hop",
+        "samurai",
+        "ronin",
+        "journey",
+        "anachronism",
+        "obsessive quest",
+        "quest",
+        "shounen",
+        "anime",
+        "changing era",
+        "adventure"
       ],
       "original_language": "ja",
+      "spoken_languages": [
+        "Japanese"
+      ],
       "production_countries": [
         "Japan"
       ],
       "production_companies": [
-        "Studio Ghibli"
+        "Manglobe"
       ],
-      "certification": "PG-13",
+      "certification": "TV-MA",
       "actors": [
         {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
+          "id": 84507,
+          "name": "Kazuya Nakai",
+          "character": "Mugen (voice)",
+          "profile_path": "/cOHSa0FBrG3u9P6g8A56sInkvod.jpg",
+          "order": 1
+        },
+        {
+          "id": 1222044,
+          "name": "Ginpei Sato",
+          "character": "Jin (voice)",
+          "profile_path": "/6ErKey0iJDoxB0iLdoRZLOTdlPZ.jpg",
+          "order": 2
+        },
+        {
+          "id": 40451,
+          "name": "Akio Otsuka",
+          "character": "Okuru (voice)",
+          "profile_path": "/uH9oiqOOgrsz2zNnouVZ1qPzDyb.jpg",
+          "order": 3
+        },
+        {
+          "id": 1222045,
+          "name": "Eiji Maruyama",
+          "character": "Biwa Minstrel (voice)",
+          "profile_path": "/92amqJ8ShSJiE6rT0gkDDXZyZc3.jpg",
+          "order": 4
+        },
+        {
+          "id": 237075,
+          "name": "Keiichi Nanba",
+          "character": "Denkibou (voice)",
+          "profile_path": "/qazcRBlCE0XJMeXIiSUvPcZNsd8.jpg",
+          "order": 5
+        },
+        {
+          "id": 216454,
+          "name": "Kiyoyuki Yanada",
+          "character": "Mukuro (voice)",
+          "profile_path": "/rczC3GZJDzfMyilcnKPG9OD1F0R.jpg",
+          "order": 6
+        },
+        {
+          "id": 216453,
+          "name": "Takayuki Sugo",
+          "character": "Kagetoki Kariya (voice)",
+          "profile_path": "/72SmjQLslGqH61JONZkSnEcvcRv.jpg",
+          "order": 7
+        },
+        {
+          "id": 1222048,
+          "name": "Otoya Kawano",
+          "character": "Ryujiro Sasaki (voice)",
+          "profile_path": "/kegsTu0x6ThozylHlUTq7gekJXw.jpg",
+          "order": 8
+        },
+        {
+          "id": 1222049,
+          "name": "Makio Inoue",
+          "character": "Enshirou Mariya (voice)",
+          "profile_path": "/bgKYsgZUPNhbPadTMozuTsTdiGA.jpg",
+          "order": 9
+        },
+        {
+          "id": 68916,
+          "name": "Unsho Ishizuka",
+          "character": "Manzou 'The Saw' Sakami (voice)",
+          "profile_path": "/nmj1vTrJc0zvuUYqxSyWXmIGBlP.jpg",
+          "order": 10
+        },
+        {
+          "id": 126283,
+          "name": "Isshin Chiba",
+          "character": "Ichiemon Frutachi (voice)",
+          "profile_path": "/79dHFfMSqnpPkh4DNXNLitYxyJ0.jpg",
+          "order": 11
+        },
+        {
+          "id": 77934,
+          "name": "Fumihiko Tachiki",
+          "character": "Rikiei (voice)",
+          "profile_path": "/9nHFGrvdT5c4klZOiFQElybNy7h.jpg",
+          "order": 12
+        },
+        {
+          "id": 1222051,
+          "name": "Shunsuke Sakuya",
+          "character": "Pinwheel Merchant (voice)",
+          "profile_path": "/tbIQ3CFxZM9wl5S4YMwqhrs5VNS.jpg",
+          "order": 13
+        },
+        {
+          "id": 84508,
+          "name": "Takehito Koyasu",
+          "character": "Umanosuke (voice)",
+          "profile_path": "/8uBkNDKPNmp9JWgMUI02NVyfhi1.jpg",
+          "order": 15
+        },
+        {
+          "id": 617,
+          "name": "Ichiro Nagai",
+          "character": "Yamane (voice)",
+          "profile_path": "/d5LuqwoIjMIqKvKmEk5y6AZY1Ww.jpg",
+          "order": 17
+        },
+        {
+          "id": 90571,
+          "name": "Toshihiko Seki",
+          "character": "Yamane (voice)",
+          "profile_path": "/7jUPvx4hxWZWZJgyiCwd8KxWuvI.jpg",
+          "order": 18
         }
       ],
       "actresses": [
         {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
+          "id": 151183,
+          "name": "Ayako Kawasumi",
+          "character": "Fuu (voice)",
+          "profile_path": "/vb4cgQUlZdaZT3P4RI27x2PGwpH.jpg",
+          "order": 0
+        },
+        {
+          "id": 83937,
+          "name": "Sakiko Tamagawa",
+          "character": "Sara (voice)",
+          "profile_path": "/652TiFmGTnXmx0s3yvZsQcwPBvd.jpg",
+          "order": 14
+        },
+        {
+          "id": 568288,
+          "name": "Mayumi Yamaguchi",
+          "character": "Sousuke Kawara (voice)",
+          "profile_path": "/uzkuXAZqQhbW03ELeLpmjcIzGpS.jpg",
+          "order": 16
+        },
+        {
+          "id": 1222052,
+          "name": "Sayuri",
+          "character": "Osuzu (voice)",
+          "profile_path": "/rNg2gmarYlhvXQOP1WiebDANQYh.jpg",
+          "order": 19
         }
-      ]
+      ],
+      "directors": [
+        {
+          "id": 56342,
+          "name": "Shinichiro Watanabe",
+          "profile_path": "/AptCCXOt0n4pnTjvFau8GtFyysh.jpg",
+          "job": "Creator"
+        }
+      ],
+      "number_of_seasons": 1,
+      "number_of_episodes": 26,
+      "episode_run_time": 24,
+      "total_runtime_minutes": 624,
+      "enriched_at": "2026-10-04T12:36:35.092578"
     },
     {
       "imdb_id": "tt0325547",
@@ -424,41 +1052,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040028",
-      "overview": "A compelling film titled Hellsing featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0325547.jpg",
-      "backdrop_path": "/sample_backdrop_tt0325547.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Fantasy",
-        "Horror"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt3909224",
@@ -497,43 +1091,7 @@
       ],
       "watch_with_wife": true,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040039",
-      "overview": "A compelling film titled The Seven Deadly Sins featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt3909224.jpg",
-      "backdrop_path": "/sample_backdrop_tt3909224.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt5626028",
@@ -570,41 +1128,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040043",
-      "overview": "A compelling film titled My Hero Academia featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt5626028.jpg",
-      "backdrop_path": "/sample_backdrop_tt5626028.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt3114390",
@@ -643,43 +1167,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040046",
-      "overview": "A compelling film titled Kill La Kill featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt3114390.jpg",
-      "backdrop_path": "/sample_backdrop_tt3114390.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Comedy",
-        "Drama",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt0434665",
@@ -716,41 +1204,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040050",
-      "overview": "A compelling film titled Bleach featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0434665.jpg",
-      "backdrop_path": "/sample_backdrop_tt0434665.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt1355642",
@@ -790,44 +1244,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040054",
-      "overview": "A compelling film titled Fullmetal Alchemist: Brotherhood featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt1355642.jpg",
-      "backdrop_path": "/sample_backdrop_tt1355642.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Fantasy",
-        "Sci-Fi"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt5249462",
@@ -867,44 +1284,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040058",
-      "overview": "A compelling film titled Erased featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt5249462.jpg",
-      "backdrop_path": "/sample_backdrop_tt5249462.jpg",
-      "genres": [
-        "Animation",
-        "Crime",
-        "Drama",
-        "Fantasy",
-        "Mystery",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt3895150",
@@ -942,42 +1322,7 @@
       ],
       "watch_with_wife": true,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040062",
-      "overview": "A compelling film titled Your Lie in April featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt3895150.jpg",
-      "backdrop_path": "/sample_backdrop_tt3895150.jpg",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Drama",
-        "Music",
-        "Romance"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt2230051",
@@ -1015,42 +1360,7 @@
       ],
       "watch_with_wife": true,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040065",
-      "overview": "A compelling film titled High School DxD featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt2230051.jpg",
-      "backdrop_path": "/sample_backdrop_tt2230051.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt2176165",
@@ -1089,43 +1399,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040068",
-      "overview": "A compelling film titled Another featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt2176165.jpg",
-      "backdrop_path": "/sample_backdrop_tt2176165.jpg",
-      "genres": [
-        "Animation",
-        "Drama",
-        "Fantasy",
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt9458304",
@@ -1163,42 +1437,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040072",
-      "overview": "A compelling film titled Dororo featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt9458304.jpg",
-      "backdrop_path": "/sample_backdrop_tt9458304.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Horror"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt2379308",
@@ -1238,44 +1477,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040075",
-      "overview": "A compelling film titled Psycho-Pass featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt2379308.jpg",
-      "backdrop_path": "/sample_backdrop_tt2379308.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt7263328",
@@ -1311,40 +1513,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040078",
-      "overview": "A compelling film titled Classroom of the Elite featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt7263328.jpg",
-      "backdrop_path": "/sample_backdrop_tt7263328.jpg",
-      "genres": [
-        "Animation",
-        "Drama",
-        "Thriller"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt5857720",
@@ -1381,41 +1550,7 @@
       ],
       "watch_with_wife": true,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040082",
-      "overview": "A compelling film titled ReLIFE featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt5857720.jpg",
-      "backdrop_path": "/sample_backdrop_tt5857720.jpg",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt9828724",
@@ -1454,43 +1589,7 @@
       ],
       "watch_with_wife": true,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040086",
-      "overview": "A compelling film titled Wise Man's Grandchild featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt9828724.jpg",
-      "backdrop_path": "/sample_backdrop_tt9828724.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt0988824",
@@ -1529,43 +1628,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040092",
-      "overview": "A compelling film titled Naruto: Shippuden featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt0988824.jpg",
-      "backdrop_path": "/sample_backdrop_tt0988824.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Fantasy"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt6342474",
@@ -1604,43 +1667,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040096",
-      "overview": "A compelling film titled Boruto: Naruto Next Generations featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt6342474.jpg",
-      "backdrop_path": "/sample_backdrop_tt6342474.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Drama",
-        "Fantasy"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt6517102",
@@ -1679,43 +1706,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040099",
-      "overview": "A compelling film titled Castlevania featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt6517102.jpg",
-      "backdrop_path": "/sample_backdrop_tt6517102.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Drama",
-        "Fantasy",
-        "Horror"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt9335498",
@@ -1753,42 +1744,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040102",
-      "overview": "A compelling film titled Demon Slayer: Kimetsu no Yaiba featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt9335498.jpg",
-      "backdrop_path": "/sample_backdrop_tt9335498.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Thriller"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt10233448",
@@ -1826,42 +1782,7 @@
       ],
       "watch_with_wife": false,
       "watch_with_family": true,
-      "enrichment_status": "enriched",
-      "enriched_at": "2026-10-04T00:25:57.040106",
-      "overview": "A compelling film titled Vinland Saga featuring world-class storytelling.",
-      "poster_path": "/sample_poster_tt10233448.jpg",
-      "backdrop_path": "/sample_backdrop_tt10233448.jpg",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Drama",
-        "History"
-      ],
-      "original_language": "ja",
-      "production_countries": [
-        "Japan"
-      ],
-      "production_companies": [
-        "Studio Ghibli"
-      ],
-      "certification": "PG-13",
-      "actors": [
-        {
-          "id": 101,
-          "name": "Sample Leading Actor",
-          "gender": 2,
-          "character": "Protagonist"
-        }
-      ],
-      "actresses": [
-        {
-          "id": 102,
-          "name": "Sample Leading Actress",
-          "gender": 1,
-          "character": "Lead"
-        }
-      ]
+      "enrichment_status": "pending"
     },
     {
       "imdb_id": "tt7222086",

@@ -1,11 +1,37 @@
-import React, { useState } from 'react';
-import { Settings, Download, RotateCcw, Shield, Database, Check, Upload, Key } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Settings, Download, RotateCcw, Shield, Database, Check, Upload, Key, Sparkles, CheckCircle2, AlertCircle } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { exportDatabaseJSON, resetDatabase } from '../db/db';
+import { getLocalApiKey, setLocalApiKey, testTMDBConnection } from '../services/tmdb';
 
 export default function SettingsPage() {
   const { stats, showToast } = useApp();
   const [isResetting, setIsResetting] = useState(false);
+  const [apiKeyInput, setApiKeyInput] = useState('');
+  const [keyStatus, setKeyStatus] = useState(null);
+  const [isTestingKey, setIsTestingKey] = useState(false);
+
+  useEffect(() => {
+    const existing = getLocalApiKey();
+    if (existing) {
+      setApiKeyInput(existing);
+      testTMDBConnection(existing).then(res => setKeyStatus(res));
+    }
+  }, []);
+
+  const handleSaveApiKey = async () => {
+    setIsTestingKey(true);
+    const trimmed = apiKeyInput.trim();
+    setLocalApiKey(trimmed);
+    const testResult = await testTMDBConnection(trimmed);
+    setKeyStatus(testResult);
+    setIsTestingKey(false);
+    if (testResult.success) {
+      showToast('TMDB API Key connected successfully!');
+    } else {
+      showToast(testResult.message || 'Key saved, but connection test failed.');
+    }
+  };
 
   const handleExportJSON = async () => {
     try {
@@ -46,6 +72,56 @@ export default function SettingsPage() {
         <p className="text-xs sm:text-sm text-slate-300 mt-1">
           Manage your IndexedDB local database, export backups, re-import fresh IMDb files, and manage privacy.
         </p>
+      </div>
+
+      {/* TMDB API Integration Card */}
+      <div className="p-6 rounded-3xl glass-card border border-white/10 space-y-4">
+        <div className="flex items-center justify-between">
+          <h3 className="text-base font-bold text-white flex items-center gap-2">
+            <Key className="w-4 h-4 text-cinema-gold" />
+            <span>TMDB API Connection</span>
+          </h3>
+          {keyStatus?.success && (
+            <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              Connected
+            </span>
+          )}
+        </div>
+        <p className="text-xs text-slate-300 leading-relaxed">
+          Powers live online movie searches, high-resolution backdrops, cast filmographies, and streaming providers.
+        </p>
+
+        <div className="space-y-2">
+          <label className="text-xs font-semibold text-slate-300">TMDB API Key (v3 auth)</label>
+          <div className="flex gap-2">
+            <input
+              type="password"
+              placeholder="e.g. 15fc9e9daa6b1b2d769d94db4142ed66"
+              value={apiKeyInput}
+              onChange={(e) => setApiKeyInput(e.target.value)}
+              className="flex-1 px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white font-mono text-xs focus:outline-none focus:border-cinema-gold"
+            />
+            <button
+              onClick={handleSaveApiKey}
+              disabled={isTestingKey}
+              className="px-5 py-2.5 rounded-xl bg-cinema-gold hover:bg-amber-400 text-cinema-950 font-bold text-xs transition-colors disabled:opacity-50"
+            >
+              {isTestingKey ? 'Testing...' : 'Save & Test'}
+            </button>
+          </div>
+        </div>
+
+        {keyStatus && (
+          <div className={`p-3 rounded-xl text-xs flex items-center gap-2 border ${
+            keyStatus.success 
+              ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-300' 
+              : 'bg-rose-500/10 border-rose-500/20 text-rose-300'
+          }`}>
+            {keyStatus.success ? <CheckCircle2 className="w-4 h-4 shrink-0" /> : <AlertCircle className="w-4 h-4 shrink-0" />}
+            <span>{keyStatus.success ? 'TMDB API is verified and active! Online search and artwork fetching are ready.' : (keyStatus.message || 'Verification failed. Please check key.')}</span>
+          </div>
+        )}
       </div>
 
       {/* Database Status Card */}

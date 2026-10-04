@@ -1,8 +1,7 @@
 {
   "total_titles": 2914,
-  "enriched_count": 25,
+  "enriched_count": 5,
   "unmatched_count": 0,
-  "runtime_seconds": 0.15,
-  "mode": "dry_run_or_mock",
-  "timestamp": "2026-10-04T00:25:57.040415"
+  "runtime_seconds": 4.71,
+  "timestamp": "2026-10-04T12:36:35.093836"
 }

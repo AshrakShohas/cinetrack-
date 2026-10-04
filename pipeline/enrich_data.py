@@ -29,6 +29,7 @@ load_dotenv()
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 CACHE_DB_PATH = os.path.join("data", "cache", "tmdb_cache.sqlite")
 OUTPUT_ENRICHED_PATH = os.path.join("data", "movies_enriched.json")
+OUTPUT_PUBLIC_ENRICHED_PATH = os.path.join("public", "data", "movies_enriched.json")
 UNMATCHED_LOG_PATH = os.path.join("data", "unmatched_titles.json")
 SUMMARY_PATH = os.path.join("data", "enrichment_summary.json")
 
@@ -484,6 +485,10 @@ def run_pipeline(limit: Optional[int] = None, dry_run: bool = False):
     }
 
     with open(OUTPUT_ENRICHED_PATH, "w", encoding="utf-8") as fp:
+        json.dump({"summary": summary_data, "titles": enriched_list}, fp, indent=2, ensure_ascii=False)
+
+    os.makedirs(os.path.dirname(OUTPUT_PUBLIC_ENRICHED_PATH), exist_ok=True)
+    with open(OUTPUT_PUBLIC_ENRICHED_PATH, "w", encoding="utf-8") as fp:
         json.dump({"summary": summary_data, "titles": enriched_list}, fp, indent=2, ensure_ascii=False)
 
     with open(UNMATCHED_LOG_PATH, "w", encoding="utf-8") as fp:
